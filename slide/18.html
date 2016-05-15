@@ -1,0 +1,767 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>ECMAScriptとGitHub | ECMAScriptとは何か？</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+    
+        <link rel="stylesheet" href="../css/index.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../slide/19.html" />
+    
+    
+    <link rel="prev" href="../slide/17.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="12"
+        data-chapter-title="ECMAScriptとGitHub"
+        data-filepath="slide/18.md"
+        data-basepath=".."
+        data-revision="Sun May 15 2016 10:32:57 GMT+0000 (UTC)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="slide/1.html">
+            
+                
+                    <a href="../slide/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        自己紹介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="slide/2.html">
+            
+                
+                    <a href="../slide/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        ECMAScriptとは?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="slide/3.html">
+            
+                
+                    <a href="../slide/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        ECMA-262
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="slide/4.html">
+            
+                
+                    <a href="../slide/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        TC39
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="slide/5.html">
+            
+                
+                    <a href="../slide/5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        ECMAScript 6 / 2015の呼び方
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="slide/6.html">
+            
+                
+                    <a href="../slide/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        ES6のエディタ
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="slide/7.html">
+            
+                
+                    <a href="../slide/7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Ecma標準とISO標準の違い
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="slide/8.html">
+            
+                
+                    <a href="../slide/8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        ECMAScript 7 / 2016
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="slide/9.html">
+            
+                
+                    <a href="../slide/9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        ES.nextのエディタ
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="slide/10.html">
+            
+                
+                    <a href="../slide/10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        ES.nextと策定プロセス
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1" data-path="slide/11.html">
+            
+                
+                    <a href="../slide/11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                        5段階のStage
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="slide/12.html">
+            
+                
+                    <a href="../slide/12.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        TC39 Process: Stage
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="slide/13.html">
+            
+                
+                    <a href="../slide/13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        例) do式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="slide/14.html">
+            
+                
+                    <a href="../slide/14.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        ブラウザに実装 ≠ 仕様に入る
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="slide/15.html">
+            
+                
+                    <a href="../slide/15.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        何で1年ごとにリリースするの?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="slide/16.html">
+            
+                
+                    <a href="../slide/16.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.4.</b>
+                        
+                        誰がプロポーザル書いてるの?
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="slide/17.html">
+            
+                
+                    <a href="../slide/17.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        新しいプロポーザルを提案するには
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="12" data-path="slide/18.html">
+            
+                
+                    <a href="../slide/18.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        ECMAScriptとGitHub
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="slide/19.html">
+            
+                
+                    <a href="../slide/19.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        仕様についてはどこで議論?
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.1" data-path="slide/20.html">
+            
+                
+                    <a href="../slide/20.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.1.</b>
+                        
+                        最近の面白い議論の流れ
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="slide/21.html">
+            
+                
+                    <a href="../slide/21.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        結局ECMAScript 2016って何が入るの?
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="14.1" data-path="slide/22.html">
+            
+                
+                    <a href="../slide/22.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                        ECMAScriptに静的型って入るの？
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="slide/23.html">
+            
+                
+                    <a href="../slide/23.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        Ecmarkup
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="15.1" data-path="slide/24.html">
+            
+                
+                    <a href="../slide/24.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.1.</b>
+                        
+                        Wordだった頃の様子
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="slide/25.html">
+            
+                
+                    <a href="../slide/25.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        ES.nextの進捗
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="17" data-path="slide/26.html">
+            
+                
+                    <a href="../slide/26.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>17.</b>
+                        
+                        次の仕様っていつリリースされるの?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="18" data-path="slide/27.html">
+            
+                
+                    <a href="../slide/27.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.</b>
+                        
+                        ECMAScriptとModuleとWHATWG
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="19" data-path="slide/28.html">
+            
+                
+                    <a href="../slide/28.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.</b>
+                        
+                        ES6に入らなかったプロポーザルって?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="20" data-path="slide/29.html">
+            
+                
+                    <a href="../slide/29.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>20.</b>
+                        
+                        ECMAScriptの実装ってどれぐらいあるの?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="21" data-path="slide/30.html">
+            
+                
+                    <a href="../slide/30.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>21.</b>
+                        
+                        ECMAScriptの実装状況ってどうなの?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="22" data-path="slide/31.html">
+            
+                
+                    <a href="../slide/31.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>22.</b>
+                        
+                        Transpilerって何?
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="22.1" data-path="slide/32.html">
+            
+                
+                    <a href="../slide/32.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>22.1.</b>
+                        
+                        Tranpiler is not Learning tools
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="23" data-path="slide/33.html">
+            
+                
+                    <a href="../slide/33.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>23.</b>
+                        
+                        Polyfillって何?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="24" data-path="slide/34.html">
+            
+                
+                    <a href="../slide/34.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>24.</b>
+                        
+                        ずっとBabelを使い続けるのか?
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1" data-path="slide/35.html">
+            
+                
+                    <a href="../slide/35.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>24.1.</b>
+                        
+                        Contributing
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="25" data-path="slide/36.html">
+            
+                
+                    <a href="../slide/36.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>25.</b>
+                        
+                        こんな機能ってES.nextに入るの?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="26" data-path="slide/37.html">
+            
+                
+                    <a href="../slide/37.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>26.</b>
+                        
+                        もっと知りたい
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >ECMAScriptとは何か？</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="ecmascript&#x3068;github">ECMAScript&#x3068;GitHub</h1>
+<p>ECMAScript 2016&#x306E;&#x30C9;&#x30E9;&#x30D5;&#x30C8;&#x306F;GitHub&#x3067;&#x516C;&#x958B;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x3002;</p>
+<ul>
+<li><a href="https://github.com/tc39/ecma262" title="tc39/ecma262" target="_blank">tc39/ecma262</a></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../slide/17.html" class="navigation navigation-prev " aria-label="Previous page: 新しいプロポーザルを提案するには"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../slide/19.html" class="navigation navigation-next " aria-label="Next page: 仕様についてはどこで議論?"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":"night","size":3},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
